@@ -4,10 +4,6 @@
 
 ---
 
-![Tech Shop Banner](https://i.imgur.com/f7HnJek.png)
-
----
-
 ## 🚀 Features
 
 * 🔐 **User Authentication**

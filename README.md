@@ -1,25 +1,79 @@
-# E-Commerce Project
+# 🛒 Tech Shop
 
-**Student Name:** Jane Doe  
-**Solo Work:** This project was completed 100% solo, using only course-taught techniques.
+> A fully functional **PHP e-commerce platform** using **PDO, MySQL, and MVC**, built for the **Web Development Server-Side** module.
 
-## Setup Instructions
+---
 
-1. Import the `database.sql` file into your MySQL server to create the `ecommerce` database and tables:
+![Tech Shop Banner](https://i.imgur.com/f7HnJek.png)
 
-```bash
-mysql -u username -p < database.sql
-```
+---
 
-2. Place all project files in your web server directory (e.g., `htdocs` or `www`).
-3. Ensure the `config.php` file has the correct database credentials (username/password).
-4. Access the application via your browser at `http://localhost/your-folder/public/index.php`.
+## 🚀 Features
 
-## Features Implemented
+* 🔐 **User Authentication**
 
-- User registration and login (session-based authentication).
-- Product management (Create, Read, Update, Delete).
-- Session-based shopping cart (add items, view cart, remove items).
-- Input validation and sanitization on forms.
-- MVC structure with separate folders for models, views, controllers, includes, and public files.
-- Bootstrap CSS for basic styling (no JavaScript used).
+  * Register / Login / Logout
+  * Hashed passwords using `password_hash()`
+  * Session-based login
+
+* 📦 **Product Management (CRUD)**
+
+  * Add, Edit, Delete, View
+  * Fields: name, description, price, stock
+  * Protected actions (only logged-in users)
+
+* 🛒 **Shopping Cart**
+
+  * Session-based
+  * Add/Remove items
+  * Auto-total calculation
+
+## 📷 Screenshots
+
+| Product List                                 | Add Product                             | Cart                                     |
+| -------------------------------------------- | --------------------------------------- | ---------------------------------------- |
+| ![products](https://i.imgur.com/83sUezO.png) | ![add](https://i.imgur.com/zR2KhbH.png) | ![cart](https://i.imgur.com/1rUMKPt.png) |
+
+---
+
+## 🛠️ Setup Instructions
+
+1. 🔽 [Download the project as ZIP](https://github.com/YOUR_USERNAME/tech-shop-ecommerce/archive/refs/heads/main.zip)
+2. Extract the files into your web root (`htdocs` for XAMPP).
+3. Start **Apache** and **MySQL** in XAMPP.
+4. Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+5. Create a database called `ecommerce` (You can rename this)
+6. Import the `database.sql` file.
+7. Open the app at [http://localhost/ecommerce/public/index.php](http://localhost/ecommerce/public/index.php)
+
+---
+
+## 📦 Download
+
+* 🔗 [Latest ZIP Release](https://github.com/YOUR_USERNAME/tech-shop-ecommerce/archive/refs/heads/main.zip)
+* 🔗 [View on GitHub](https://github.com/YOUR_USERNAME/tech-shop-ecommerce)
+
+---
+
+## 🔧 Technologies Used
+
+* PHP 8.x
+* MySQL (via PDO)
+* HTML5 & Bootstrap 5
+* No JavaScript
+* No frameworks
+
+## 👤 Author
+
+* **Name**: *Robert Iordache*
+* **Module**: Web Development Server-Side
+* **Project Date**: May 2025
+* **Contribution**: *100% solo-developed by me. No external help or templates were used.*
+
+---
+
+## 🧪 Manual Testing Checklist
+
+* ✅ User registration/login/logout
+* ✅ Product add/edit/delete
+* ✅ Add to cart / remove from cart

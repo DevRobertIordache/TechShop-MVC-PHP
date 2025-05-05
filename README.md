@@ -41,20 +41,13 @@
 
 ## 🛠️ Setup Instructions
 
-1. 🔽 [Download the project as ZIP](https://github.com/YOUR_USERNAME/tech-shop-ecommerce/archive/refs/heads/main.zip)
+1. Download the project as ZIP
 2. Extract into your web root (`htdocs` in XAMPP)
 3. Start **Apache** and **MySQL** in XAMPP
 4. Visit [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 5. Create a database called `ecommerce`
 6. Import the `database.sql` file
 7. Go to [http://localhost/ecommerce/public/index.php](http://localhost/ecommerce/public/index.php)
-
----
-
-## 📦 Download
-
-* 🔗 [Latest ZIP Release](https://github.com/YOUR_USERNAME/tech-shop-ecommerce/archive/refs/heads/main.zip)
-* 🔗 [View on GitHub](https://github.com/YOUR_USERNAME/tech-shop-ecommerce)
 
 ---
 
